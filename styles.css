@@ -10,11 +10,14 @@ body {
 ul#flex-container {
     list-style-type: none;
     margin: 0;
+    display: flex;
     padding: 0;
+    height: 300px;
+    align-items: stretch;
 }
 
 ul li {
-    height: 150px;
+    width: 150px;
     font-size: 2.2em;
     font-weight: 900;
     color: #fff;
@@ -32,16 +35,17 @@ ul li:nth-child(2) {
 
 ul li:nth-child(3) {
     background-color: #c7b600;
+    align-self: flex-end;
 }
 
 ul li:nth-child(4) {
-    background-color: #a90077
+    background-color: #a90077;
 }
 
 ul li:nth-child(5) {
-    background-color: #00a378
+    background-color: #00a378;
 }
 
 ul li:last-child {
-    background-color: #00ea72
+    background-color: #00ea72;
 }
