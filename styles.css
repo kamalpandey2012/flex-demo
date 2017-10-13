@@ -1,0 +1,47 @@
+html,
+body {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul#flex-container {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    height: 150px;
+    font-size: 2.2em;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    padding-top: 55px;
+}
+
+ul li:first-child {
+    background-color: #c2d775;
+}
+
+ul li:nth-child(2) {
+    background-color: #007278;
+}
+
+ul li:nth-child(3) {
+    background-color: #c7b600;
+}
+
+ul li:nth-child(4) {
+    background-color: #a90077
+}
+
+ul li:nth-child(5) {
+    background-color: #00a378
+}
+
+ul li:last-child {
+    background-color: #00ea72
+}
